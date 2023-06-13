@@ -10,6 +10,8 @@
       <h2>Books</h2>
       <%= render 'books/index',books: @books %>
       <%= render 'post_count', books: @books, today_book: @today_book, yesterday_book: @yesterday_book, this_week_book: @this_week_book, the_day_before: @the_day_before, last_week_book: @last_week_book %>
+      <%= render 'chart', books: @books, today_book: @today_book %>
+      <%= render 'search_count', user: @user %>
     </div>
   </div>
 </div>

@@ -13,6 +13,7 @@ import "bootstrap"
 import '@fortawesome/fontawesome-free/js/all';
 import "../stylesheets/application" 
 import "script.js"
+import "chartkick/chart.js"
 
 Rails.start()
 Turbolinks.start()
